@@ -10,6 +10,11 @@ Docker is cool for everything else :)
 - to add PHP-Modulse, just use the Dockerfile
 - This is just a demo and not for production usage.
 - PHPMyAdmin is accessable via localhost:8080
+- to start up, go to directory & use docker-compose up
+
+# Requirements
+- Install Docker
+- On Windows: Install WSL (i.E. Ubuntu) via Microsoft Store
 
 # Database Credentials:
 - MYSQL_ROOT_PASSWORD: my_secret_pw
