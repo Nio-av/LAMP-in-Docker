@@ -1,4 +1,4 @@
-# LAMP-Alternative
+# LAMP via Docker for Starter
 
 XAMP is good for an easy start
 Docker is cool for everything else :)
