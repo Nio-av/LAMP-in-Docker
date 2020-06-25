@@ -28,7 +28,7 @@ services:
         stdin_open: true
         tty: true
         volumes:
-            - ./files:/var/www/html
+            - ./public:/var/www/html
             - ./db_data:/var/lib/mysql
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
