@@ -1,0 +1,22 @@
+image: node:latest
+
+pages:
+  stage: deploy
+  tags:
+    - linux-next
+  before_script:
+    - npm update
+    - npm install --save-dev typescript
+    - ls
+    - ls node_modules
+    - cd public && npm install --save-dev --only=prod 
+    - ls node_modules
+  script:
+    - cd ../
+    - ls
+    - node node_modules/typescript/lib/tsc.js
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
