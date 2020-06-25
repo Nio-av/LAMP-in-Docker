@@ -16,6 +16,11 @@ Docker is cool for everything else :)
 - Install Docker
 - On Windows: Install WSL (i.E. Ubuntu) via Microsoft Store
 
+# TypeScript Requirement
+- Install Homebrew: ``` /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
+- Install Node: ``` brew install node ```
+- Install Typescript ```sudo npm install -g typescript ```
+
 # Database Credentials:
 - MYSQL_ROOT_PASSWORD: my_secret_pw
 - MYSQL_DATABASE: test_db
