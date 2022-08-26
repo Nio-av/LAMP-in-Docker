@@ -1,7 +1,7 @@
 db_data/*
 !.gitkeep
 
-public/node_modules/
+www/node_modules/
 */package-lock.json
 
 
